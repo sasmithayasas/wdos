@@ -261,22 +261,37 @@ footer a:hover{
   color: seagreen;
 }
 
-@media (max-width: 800px) {
-  .card {
+ @media (max-width: 800px) {
+    .card {
+        display: none;
+        
+    }
+    .navbar ul li {
       display: none;
-      
   }
-  .navbar ul li {
-    display: none;
-}
+  
+  .logo{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+  
+  }
+  
+    h1{
+      font-size: 70px;
+    }
+  
+    p{
+      font-size: 18px;
+    }
+  
+    .video-size video
+  {
+    width: 100;
+    padding-bottom:90%;
+    
+  }
 
-.logo{
-  display: flex;
-  justify-content: center;
-}
-
-
- 
 }
 
 
