@@ -139,7 +139,7 @@ nav ul li a {
 .show {
     display: block;
 }
-
+/* mobile */
 @media (max-width:768px) {
     nav{
         position: relative;
