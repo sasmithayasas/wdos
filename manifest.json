@@ -1,7 +1,7 @@
 {
     "name": "SriLankan Wildlife",
     "short_name": "SLWildlife",
-    "start_url": "/index.html",
+    "start_url": "https://sasmithayasas.github.io/wdos/index.html",
     "display": "standalone",
     "background_color": "#32e385",
     "theme_color": "#23c46f",
