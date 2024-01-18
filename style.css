@@ -48,24 +48,6 @@ cursor: pointer;
     
   }
   
-.content  h1::before{
-  
-    content: "Learn About the Wildlife of Sri Lanka";
-    position: absolute;
-    width: 60%;
-    overflow: hidden;
-    color: aliceblue;
-    border-right:  solid aliceblue;
-    animation: slidein infinite 1s;;
-  
-  }
-  
-  @keyframes slidein {
-    to {
-        width: 60%;
-        filter: drop-shadow(0 0 20px aliceblue);
-    }
-  }
 
 
 
