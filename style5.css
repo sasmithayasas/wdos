@@ -231,6 +231,7 @@ footer{
 table{
     border-collapse: collapse;
     box-shadow: 5px 5px 5px green;
+    overflow-x: hidden;
 
 }
 
