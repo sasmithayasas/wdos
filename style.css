@@ -41,8 +41,7 @@ cursor: pointer;
 }
 
 .content h1{
-    color: transparent;
-    -webkit-text-stroke: aliceblue;
+    color: aliceblue;
     font-size: 70px;
     position: relative;
     
