@@ -1,10 +1,10 @@
 {
     "name": "SriLankan Wildlife",
-    "short_name": "SLWildlife",
+    "short_name": "SLW",
     "start_url": "/wdos",
     "display": "standalone",
     "background_color": "#32e385",
-    "theme_color": "#23c46f",
+    "theme_color": "##cbd1cc",
     "orientation": "portrait-primary",
     "icons": [
         {
