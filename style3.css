@@ -1,3 +1,4 @@
+/* font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;800&display=swap');
 
 /* Base Styling */
@@ -7,12 +8,16 @@
     box-sizing: border-box;
 }
 
+/* Body */
+
 body {
     font-family: 'Poppins', sans-serif;
     background: url(./pictures/bg.jpg);
     background-size: cover;
 
 }
+
+/* text styling */
 
 ul {
     list-style-type: none;
@@ -39,7 +44,7 @@ p {
     line-height: 1.75;
     font-weight: 400;
 }
-
+/* image */
 img {
     max-width: 70%;
     height: auto;
@@ -51,29 +56,29 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 100px auto 60px;
-    /* height: 100vh; */
+    
     width: 70%;
     margin: 0 auto;
 }
-
+/* header */
 header {
     background-color: #F9F9F9;
     grid-column-start: span 3;
 
 }
-
+/* aside */
 aside {
     background-color: cadetblue;
     grid-column-start: span 1;
 
 }
-
+/* main */
 main {
     background-color: #fffffc;
     grid-column-start: span 2;
 
 }
-
+/* responsive */
 @media (max-width:768px) {
     .container {
         grid-template-columns: 1fr;
@@ -118,7 +123,7 @@ nav ul li a {
 .show {
     display: block;
 }
-
+/* mobile */
 @media screen and (max-width:768px) {
     nav{
         position: relative;
@@ -153,12 +158,8 @@ aside {
     padding: 64px;
 }
 
-aside .comments,
-.archives {
-    margin-top: 64px;
-}
 
-/* Blog */
+/* main text */
 .blog-post h1 {
     color: #202020;
 }
@@ -170,7 +171,7 @@ aside .comments,
 .blog-post {
     padding: 32px;
 }
-
+/* footer */
 footer{
     width: 100%;
     position: fixed;
